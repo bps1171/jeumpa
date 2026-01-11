@@ -3,3 +3,14 @@
 -------------------------------------------------------------------*/
 
 /** ADD YOUR AWESOME CODES HERE **/
+.make_appo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* dropdown biar sejajar tombol */
+.make_appo .dropdown-menu {
+    min-width: 120px;
+    text-align: center;
+}
