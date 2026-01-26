@@ -263,7 +263,7 @@
             <p class="large">Daftar Usulan Revisi POK oleh Ketua Tim</p>
           </div>
         <h4 class="text-center mb-4" id="packageName"></h4>
-        <table id="example" class="table table-striped table-bordered mt-2 mb-2" style="width: 102%"></table>
+        <table id="example" class="table table-striped table-bordered mt-2 mb-2" style="width: 100%"></table>
         <p id="passingGrade"></p>       
       </div>
     </div>
@@ -520,6 +520,7 @@ window.addEventListener('scroll', () => {
 $(document).ready(function () {
   $("#example").DataTable({
     ajax: "https://script.google.com/macros/s/AKfycbx76OQwDpIGQ9oxZEkqwTYRwQQtJWUc6x11ymmpPYs4EoRPJBpuw_4sB_0_K_FK_Oue/exec",
+    order: [[0, 'desc']],
     columns: [
       {
         title: "Waktu Pengajuan",
